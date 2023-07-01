@@ -38,6 +38,9 @@ function kidsOne(){
     a.pop()
     kids.value = a.join('')
 }
+function subtract() {
+    kids.value += "-"
+  }
 question()
 
 btn.addEventListener('click', ()=>{
